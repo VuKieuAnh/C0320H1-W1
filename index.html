@@ -6,14 +6,18 @@
 </head>
 <body>
 <script>
-    alert("Xin chào C0320H2");
-    prompt("Xin chào C0320H2");
+function checkPrime(a) {
+    for (let i = 2; i<a; i++){
+        if (a % i ===0){
+            alert("i la" +i+":"+ a + " không phải số NT");
+        }
+        else {
+            alert("i la" +i+":"+ a + " là số NT");
+        }
+    }
+}
+checkPrime(16);
 </script>
-<h1>Danh sách lớp C0320H1</h1>
-<p>Hoàng Minh Quang</p>
-<p>Nguyễn Văn Đạt</p>
-<p>Nguyễn Thanh Tuyền</p>
-<p>Ngô Quang Hiếu</p>
-<p>Vũ Văn Liên</p>
+
 </body>
 </html>
